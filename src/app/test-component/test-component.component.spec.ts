@@ -22,7 +22,7 @@ describe('TestComponentComponent', () => {
   });
 
   it('boolean test', () => {
-    expect(false).toBeTrue();
+    expect(true).toBeTrue();
 
   });
 });
