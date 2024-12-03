@@ -23,6 +23,5 @@ describe('TestComponentComponent', () => {
 
   it('boolean test', () => {
     expect(true).toBeTrue();
-
   });
 });
