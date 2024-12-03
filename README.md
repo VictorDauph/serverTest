@@ -36,3 +36,5 @@ browsers: ['ChromeHeadless'],
 ajouter le workflow du github workflow:
 ./.github/workflows/angular-tests.yml
 => récupérer le script d'exemple pour lancer les test au push et à la pull request
+
+Configurer la protection de la branche main pour éviter les pull requests avec des tests failed
