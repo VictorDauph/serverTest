@@ -8,5 +8,8 @@ import { Component } from '@angular/core';
   styleUrl: './test-component.component.css'
 })
 export class TestComponentComponent {
+  add(a: number, b: number) {
+    return a + b;
+  }
 
 }

@@ -21,7 +21,13 @@ describe('TestComponentComponent', () => {
     expect(component).toBeTruthy();
   });
 
-  it('boolean test', () => {
+  it('should return true', () => {
     expect(true).toBeTrue();
+  });
+
+  it('should add two numbers', () => {
+    const result = component.
+      add(2, 3);
+    expect(result).toBe(5);
   });
 });
